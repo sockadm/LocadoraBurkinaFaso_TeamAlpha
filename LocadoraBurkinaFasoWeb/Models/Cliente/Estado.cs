@@ -37,7 +37,8 @@ namespace LocadoraBurkinaFasoWeb.Models
             SP,
             TO
         }
-        public string nome_estado;
+        public Estados UF { get; set; }
+        public string nome_estado { get; set; }
 
     }
 }

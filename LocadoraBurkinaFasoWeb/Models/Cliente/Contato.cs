@@ -7,10 +7,10 @@ namespace LocadoraBurkinaFasoWeb.Models
 {
     public class Contato
     {
-        public long telefone_residencial;
-        public long telefone_celular;
-        public long telefone_comercial;
-        public string email;
-       
+        public long telefone_residencial { get; set; }
+        public long telefone_celular { get; set; }
+        public long telefone_comercial { get; set; }
+        public string email { get; set; }
+
     }
 }
